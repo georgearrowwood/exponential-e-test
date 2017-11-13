@@ -1,0 +1,164 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductsList Container Renders component and triggers action fetchList on did mount 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <Connect(ProductsList)>
+    <ProductsList
+      dispatch={[Function]}
+      products={Array []}
+    >
+      <ProductsListView
+        products={Array []}
+      >
+        <div>
+          <h2
+            className="sub-header"
+          >
+            Products List
+          </h2>
+          <div
+            className="table-responsive"
+          >
+            <table
+              className="table table-striped"
+            >
+              <thead>
+                <tr>
+                  <th>
+                    #
+                  </th>
+                  <th>
+                    Supplier
+                  </th>
+                  <th>
+                    Product
+                  </th>
+                  <th>
+                    Price
+                  </th>
+                </tr>
+              </thead>
+              <tbody />
+            </table>
+          </div>
+        </div>
+      </ProductsListView>
+    </ProductsList>
+  </Connect(ProductsList)>
+</Provider>
+`;
+
+exports[`ProductsList Container set init state with products data 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <Connect(ProductsList)>
+    <ProductsList
+      dispatch={[Function]}
+      products={
+        Array [
+          Object {
+            "id": 1,
+            "name": "test product 1",
+          },
+          Object {
+            "id": 2,
+            "name": "test product 2",
+          },
+        ]
+      }
+    >
+      <ProductsListView
+        products={
+          Array [
+            Object {
+              "id": 1,
+              "name": "test product 1",
+            },
+            Object {
+              "id": 2,
+              "name": "test product 2",
+            },
+          ]
+        }
+      >
+        <div>
+          <h2
+            className="sub-header"
+          >
+            Products List
+          </h2>
+          <div
+            className="table-responsive"
+          >
+            <table
+              className="table table-striped"
+            >
+              <thead>
+                <tr>
+                  <th>
+                    #
+                  </th>
+                  <th>
+                    Supplier
+                  </th>
+                  <th>
+                    Product
+                  </th>
+                  <th>
+                    Price
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr
+                  key="1"
+                >
+                  <td>
+                    1
+                  </td>
+                  <td />
+                  <td>
+                    test product 1
+                  </td>
+                  <td />
+                </tr>
+                <tr
+                  key="2"
+                >
+                  <td>
+                    2
+                  </td>
+                  <td />
+                  <td>
+                    test product 2
+                  </td>
+                  <td />
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </ProductsListView>
+    </ProductsList>
+  </Connect(ProductsList)>
+</Provider>
+`;

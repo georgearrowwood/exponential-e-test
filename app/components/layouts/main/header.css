@@ -1,0 +1,10 @@
+/*
+ * Top navigation
+ * Hide default border to remove 1px line.
+ */
+ .navbar-brand-logo {
+  height: 78px;
+}
+.navbar-fixed-top {
+  border: 0;
+}

@@ -1,0 +1,9 @@
+{
+  "extends": ["airbnb"],
+  "rules": {
+    "import/no-extraneous-dependencies": [2, {}]
+  },
+  "env": {
+    "jest": true
+  }
+}

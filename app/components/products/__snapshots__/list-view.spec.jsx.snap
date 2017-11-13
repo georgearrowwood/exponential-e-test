@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductsList View Renders products component with properties 1`] = `
+<ProductsListView
+  deleteHandler={[Function]}
+  products={
+    Array [
+      Object {
+        "id": 1,
+        "name": "test product 1",
+      },
+      Object {
+        "id": 2,
+        "name": "test product 2",
+      },
+    ]
+  }
+>
+  <div>
+    <h2
+      className="sub-header"
+    >
+      Products List
+    </h2>
+    <div
+      className="table-responsive"
+    >
+      <table
+        className="table table-striped"
+      >
+        <thead>
+          <tr>
+            <th>
+              #
+            </th>
+            <th>
+              Supplier
+            </th>
+            <th>
+              Product
+            </th>
+            <th>
+              Price
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr
+            key="1"
+          >
+            <td>
+              1
+            </td>
+            <td />
+            <td>
+              test product 1
+            </td>
+            <td />
+          </tr>
+          <tr
+            key="2"
+          >
+            <td>
+              2
+            </td>
+            <td />
+            <td>
+              test product 2
+            </td>
+            <td />
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</ProductsListView>
+`;
