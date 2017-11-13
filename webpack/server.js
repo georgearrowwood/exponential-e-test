@@ -47,6 +47,7 @@ module.exports = {
         PORT: 8081,
         ENV: JSON.stringify('server'),
         BABEL_ENV: JSON.stringify('node'),
+        API_URL: JSON.stringify('http://localhost:8081'),
       },
     }),
   ],

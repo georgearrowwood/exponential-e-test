@@ -1,5 +1,12 @@
 # Test task for Exponential-e by Juri Kalinin
 
+## Live demo 
+
+* Live demo of this test app can be found by this url: http://ert.fivetags.co.uk/ .
+* App is built as docker image, pushed to aws docker images repository and then deployed in to aws cluster.
+
+## Features 
+
 I have done this test task with React, based on my own built boilerplate, here is some features of it:
 
 * Uses given template as basic for ui and functionaity idea.
