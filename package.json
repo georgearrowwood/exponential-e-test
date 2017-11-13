@@ -6,7 +6,7 @@
   "scripts": {
     "all-run": "npm run all-build && npm run server-run",
     "all-build": "npm run server-build && npm run client-build",
-    "server-run": "config=production node dist/server.bundle",
+    "server-run": "node dist/server.bundle",
     "server-build": "webpack --config  webpack/server.js",
     "client-build": "webpack --config  webpack/client.js",
     "server-client-watch": "npm run client-watch & npm run server-watch",
@@ -25,11 +25,11 @@
     "express": "4.16.2",
     "express-handlebars": "3.0.0",
     "express-joi-params": "0.1.2",
-    "history": "4.7.2",    
+    "history": "4.7.2",
     "jsonwebtoken": "8.1.0",
     "prop-types": "15.6.0",
-    "querystring": "^0.2.0",
-    "react": "^16.1.0",
+    "querystring": "0.2.0",
+    "react": "16.1.0",
     "react-bootstrap": "0.31.5",
     "react-cookies": "0.1.0",
     "react-dom": "^16.1.0",
@@ -40,7 +40,7 @@
     "redux": "3.7.2",
     "redux-form": "7.1.2",
     "redux-thunk": "2.2.0",
-    "winston": "^2.4.0"
+    "winston": "2.4.0"
   },
   "devDependencies": {
     "babel-cli": "6.26.0",
