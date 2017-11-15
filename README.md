@@ -21,6 +21,7 @@ I have done this test task with React, based on my own built boilerplate, here i
 * Dokerized.
 * Has basic auth setup with jwt on backend and frontend.
 * Backend data api services are mocked at the moment so it just returns simple data from express
+* Used airbnb preset for linting
 
 ## How app works
 

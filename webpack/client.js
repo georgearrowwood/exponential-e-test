@@ -1,6 +1,8 @@
 const webpack = require('webpack');
 const path = require('path');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
+const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
+const CSSNano = require('cssnano');
 
 module.exports = {
 
@@ -62,6 +64,11 @@ module.exports = {
         ENV: JSON.stringify('browser'),
       },
     }),
-    new webpack.optimize.UglifyJsPlugin(),
+    new OptimizeCssAssetsPlugin({
+      assetNameRegExp: /style\.css$/g,
+      cssProcessor: CSSNano,
+      cssProcessorOptions: { discardComments: { removeAll: true } },
+      canPrint: true,
+    }),
   ],
 };
