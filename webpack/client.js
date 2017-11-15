@@ -24,16 +24,21 @@ module.exports = {
       { test: /\.(js|jsx)$/, loader: 'babel-loader', exclude: /node_modules/ },
       {
         test: /\.css$/,
-        use: [
-          { loader: 'style-loader' },
-          { loader: 'css-loader' },
-        ],
+        use: ExtractTextPlugin.extract({
+          use: [
+            // { loader: 'style-loader' },
+            { loader: 'css-loader' },
+          ],
+        }),
       },
       {
         test: /\.scss$/i,
         exclude: /node_modules/,
         use: ExtractTextPlugin.extract({
-          use: ['css-loader', 'sass-loader'],
+          use: [
+            { loader: 'css-loader' },
+            { loader: 'sass-loader' },
+          ],
         }),
       },
       {
