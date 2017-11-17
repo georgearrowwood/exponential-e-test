@@ -9,4 +9,4 @@ RUN apk add --no-cache curl
 EXPOSE 8080 8080
 EXPOSE 8888 8888
 
-CMD npm i && npm run server-client-watch
+CMD npm i && npm run server-watch

@@ -1,25 +1,25 @@
 
 const products = [
   {
-    id: 1, name: 'Small wongle', type_id: 2, supplier_id: 1, supplier_name: 'New Co Ltd', price: 5,
+    id: 1, name: 'Small product', type_id: 2, supplier_id: 1, supplier_name: 'New Co Ltd', price: 5,
   },
   {
-    id: 2, name: 'Large wongle', type_id: 3, supplier_id: 1, supplier_name: 'New Co Ltd', price: 8,
+    id: 2, name: 'Large product', type_id: 3, supplier_id: 1, supplier_name: 'New Co Ltd', price: 8,
   },
   {
-    id: 3, name: 'Super wongle', type_id: 4, supplier_id: 1, supplier_name: 'New Co Ltd', price: 12,
+    id: 3, name: 'Super product', type_id: 4, supplier_id: 1, supplier_name: 'New Co Ltd', price: 12,
   },
   {
-    id: 4, name: 'Mini wongle', type_id: 1, supplier_id: 2, supplier_name: 'Old Co Ltd', price: 4,
+    id: 4, name: 'Mini product', type_id: 1, supplier_id: 2, supplier_name: 'Old Co Ltd', price: 4,
   },
   {
-    id: 5, name: 'Small wongle', type_id: 2, supplier_id: 2, supplier_name: 'Old Co Ltd', price: 6,
+    id: 5, name: 'Small product', type_id: 2, supplier_id: 2, supplier_name: 'Old Co Ltd', price: 6,
   },
   {
-    id: 6, name: 'Large wongle', type_id: 3, supplier_id: 2, supplier_name: 'Old Co Ltd', price: 9,
+    id: 6, name: 'Large product', type_id: 3, supplier_id: 2, supplier_name: 'Old Co Ltd', price: 9,
   },
   {
-    id: 7, name: 'Super wongle', type_id: 4, supplier_id: 2, supplier_name: 'Old Co Ltd', price: 13,
+    id: 7, name: 'Super product', type_id: 4, supplier_id: 2, supplier_name: 'Old Co Ltd', price: 13,
   },
 ];
 
@@ -29,10 +29,10 @@ const filters = {
     { id: 2, name: 'Old Co Ltd' },
   ],
   types: [
-    { id: 1, name: 'Mini wongle' },
-    { id: 2, name: 'Small wongle' },
-    { id: 3, name: 'Large wongle' },
-    { id: 4, name: 'Super wongle' },
+    { id: 1, name: 'Mini product' },
+    { id: 2, name: 'Small product' },
+    { id: 3, name: 'Large product' },
+    { id: 4, name: 'Super product' },
   ],
 };
 

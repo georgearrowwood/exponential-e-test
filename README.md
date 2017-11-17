@@ -1,9 +1,4 @@
-# Test task for Exponential-e by Juri Kalinin
-
-## Live demo 
-
-* Live demo of this test app can be found by this url: http://ert.fivetags.co.uk/ .
-* App is built as docker image, pushed to aws docker images repository and then deployed in to aws cluster.
+# Test task by Juri Kalinin
 
 ## Features 
 
